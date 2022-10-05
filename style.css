@@ -1,0 +1,82 @@
+/* bleu (#0065FC), bleu clair (#DEEBFF)
+ gris pour le fond (#F2F2F2). */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-img{
+  width: 110px;
+  height: 50px;
+}
+
+.nav-links{
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-links li a {
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(99, 96, 96);
+}
+
+.nav-links li a:hover {
+  color: #0065FC;
+}
+
+.description__title{
+  font-size: 25px;
+}
+
+.description__subtitle{
+  color: rgb(143, 142, 142);
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.searchbar{
+  display: flex;
+}
+
+.location-icon{
+  width: 20px;
+  height: 20px;
+  background-color: #F2F2F2;
+}
+
+.search__btn{
+  color:white;
+  background-color: #0065FC;
+  border: none;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.filters{
+  display: flex;
+}
+
+.filter{
+  display: flex;
+}
+
+.information{
+  display: flex;
+}
+
+/* .footer {
+  display: flex;
+  background-color: #F2F2F2;
+}
+
+.footer h1{
+  font-size: 15px;
+} */
