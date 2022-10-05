@@ -5,11 +5,18 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Raleway", sans-serif;
 }
 
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px;
+}
+
+.logo{
+  margin-right: auto;
 }
 
 .logo-img{
@@ -19,57 +26,139 @@
 
 .nav-links{
   list-style-type: none;
-  display: flex;
+}
+
+.nav-links li{ 
+  display: inline-block;
+  padding: 0px 20px;
 }
 
 .nav-links li a {
   cursor: pointer;
   text-decoration: none;
   color: rgb(99, 96, 96);
+  margin-right: 15px;
 }
 
 .nav-links li a:hover {
   color: #0065FC;
 }
 
+.description{
+  padding: 0 20px;
+}
+
 .description__title{
   font-size: 25px;
+  margin-bottom: 10px;
 }
 
 .description__subtitle{
   color: rgb(143, 142, 142);
-  font-size: 15px;
+  margin-bottom: 10px;
+  font-size: 13px;
   font-weight: 300;
 }
 
 .searchbar{
   display: flex;
+  padding: 0 20px;
+  margin-bottom: 20px;
 }
 
-.location-icon{
-  width: 20px;
-  height: 20px;
+.searchbar__icon{
   background-color: #F2F2F2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 9px 15px;
+  border-radius: 10px 0 0 10px;
 }
 
-.search__btn{
+.searchbar__input{
+  outline: none;
+  border: #F2F2F2;
+  padding: 0 10px;
+
+}
+
+.searchbar__btn{
   color:white;
   background-color: #0065FC;
   border: none;
-  border-top-right-radius: 50px;
-  border-bottom-right-radius: 50px;
+  border-radius: 0 10px 10px 0;
+  padding: 9px 25px;
 }
 
 .filters{
   display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  
+}
+
+.filters__title{
+  font-weight: 600;
+  padding: 10px 20px;
+  
 }
 
 .filter{
   display: flex;
+  align-items: center;
+  margin-right: 15px;
+  border: 2px solid rgb(211, 211, 211);
+  border-radius: 50px;
+  
+}
+
+.filter__icon{
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: #DEEBFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.filter__icon i{
+  color: #0065FC;
+}
+
+.filter__title{
+  font-weight: 600;
+  padding: 10px;
 }
 
 .information{
   display: flex;
+  align-items: center;
+  padding: 10px 20px;
+
+}
+
+.information__icon{
+  width: 25px;
+  height: 25px;
+  border-radius: 50px;
+  margin-right: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgb(211, 211, 211);
+}
+
+.information__icon i {
+  font-size: 12px;
+  color: #0065FC;
+  
+}
+
+.information__description {
+  color: rgb(143, 142, 142);
+  font-size: 13px;
+
 }
 
 /* .footer {
