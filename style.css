@@ -94,9 +94,7 @@
 
 .filters{
   display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-  
+  align-items: center;  
 }
 
 .filters__title{
