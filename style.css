@@ -333,3 +333,34 @@ flex-grow: 1;
   font-weight: 700;
   padding: 5px 10px;
 }
+
+.footer {
+  display: flex;
+  background-color: #F2F2F2;
+  padding: 20px;
+}
+.footer h1{
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.footer ul{
+  list-style-type: none;
+}
+
+.footer li{
+  color: rgb(143, 142, 142);
+  margin-bottom: 5px;
+}
+
+.about{
+  margin-right: auto;
+}
+
+.accommodation-footer{
+  margin-right: auto;
+}
+
+.assistance{
+  margin-right: auto;
+}
