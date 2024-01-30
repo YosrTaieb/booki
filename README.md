@@ -1,7 +1,6 @@
 # Projet OpenClassrooms : Booki
 
 L'objectif est __d'intégrer la maquette d'un site de planification de vacances__ nommé "Booki" .
-![Alt text](/bookiCover.webp?raw=true "Cover Booki OpenClassrooms")
 
 ## Contexte :
 Booki est une petite entreprise proposant un outil de planification de vacances. Le site permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix.
